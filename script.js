@@ -5,7 +5,7 @@ const age = document.getElementById('age');
 const email = document.getElementById('email');
 const phone = document.getElementById('phone');
 const info = document.getElementById('info');
-document.getElementById("getuser").addEventListener("click",getuser)
+document.getElementById("getUser").addEventListener("click",getuser)
 
 let user = getuser();
 async function getuser() {
